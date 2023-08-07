@@ -1,4 +1,4 @@
-
+# Sheffield  courses web scrapinh
 The code uses the Selenium library to scrape data from the University of Sheffield's website about undergraduate courses offered in 2023. The data that is scraped includes the course name, award, A Levels, UCAS code, duration, start month, accreditation, home students fees, and overseas students fees. The data is then written to a CSV file.
 
 The code first sets up the Chrome driver and opens the Sheffield University website. It then uses the find_elements() method to find all of the course listings on the page. For each course listing, the code gets the course name, award, and a link to the course's individual page. The code then clicks on the link to the course's individual page and scrapes the following data:
